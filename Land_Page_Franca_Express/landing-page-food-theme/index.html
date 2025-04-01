@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Franca Express</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-truck-fast" id="nav_logo"> Franca Express</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#frontainer">Nossa frota</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Faça sua cotação
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#frontainer">Nossa frota</a>
+                </li>
+                
+            </ul>
+
+            <button class="btn-default">
+                Faça sua cotação
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    A gente entrega
+                    <span>sem burocracia</span>
+                </h1>
+
+                <p class="description">
+                    "Agilidade e confiança, transportando o futuro com você!"
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Faça sua cotação
+                    </a>
+
+                   
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/images/pngwing.com.png" alt="">
+            </div>
+        </section>
+
+       <section id="sobre">
+            <img src="src/images/0ee914af88d3a11b5cd961b48c27f98e-removebg-preview.png" id="sobre_camn" alt="">
+            <div id="sobre_content">
+                <h2 class="section-title">
+                    Quem somos
+
+                </h2>
+                <h3 class="section-subtitle">
+                    Sobre A Franca Express
+
+                </h3>
+                <p>
+                    Criada em 1998, a Franca Express tem como diferencial a adoção de um modelo de negócio 
+                    eficiente, que envolve o investimento constante em inovação e busca pela excelência no transporte.
+                    Com monitoramento 24 horas e contando com total cobertura, a Franca Express mantém um sistema
+                    de gestão de qualidade contínua, proporcionando eficiência em todos os processos logísticos. 
+
+                Contamos com estrutura própria para armazenagem/transporte 
+                para as cidades de Franca, Ribeirão Preto, São Paulo e região metropolitana. Temos toda infraestrutura para movimentação de containe
+                rs de/para o Porto de Santos e também atendemos os principais aeroportos do estado.
+                </p>
+
+            </div>
+
+
+
+
+       </section>
+
+        <section id="testimonials">
+            <img src="src/images/chef.png" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Nossos serviços
+                </h2>
+                <h3 class="section-subtitle">
+                    Trabalhamos com uma ampla variedade para melhor te atender
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Carga Fracionada
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Serviço de coleta e entrega para encomendas fracionadas destinadas a pessoas físicas e jurídicas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Carga Intinerante
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Coleta em um único embarcador para mais de um ponto de entrega, em sistema de exclusividade.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+    
+                        <div class="feedback-content">
+                            <p>
+                                Carga Consolidada
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Cargas consolidadas em uma rota específica, atendendo a um número de clientes limitado.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+    
+                        <div class="feedback-content">
+                            <p>
+                                Carga dedicada
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                De um único embarcador para um único destino.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <a href="#" class="btn-default">
+                    Faça sua cotação
+                </a>
+            </div>
+        </section>
+        <section id="frontainer">
+            <h2 class="section-title">Frota</h2>
+            <h3 class="section-subtitle">Temos uma frota completa para atendê-lo</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <img src="src/images/dish.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Veiculos Porta
+                        Container
+                    </h3>
+
+                    <span class="dish-description">
+                        Transportamos todos os tipos de container, de 20 e 40 pés. Atuamos com eficientes parcerias em Agentes de Carga, despachantes aduaneiros, importadores e exportadores.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish2.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Veiculos Pesados
+                    </h3>
+
+                    <span class="dish-description">
+                        Veículos pesados com capacidade de até 30 toneladas (Sider / Carga Seca), destinado a longas distâncias e ao serviço de transferências de cargas consolidadas.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish3.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Veiculos Medios
+                    </h3>
+
+                    <span class="dish-description">
+                        Veículos Truck Baú, Sider e Carga Seca. Utilizados nas operações de transferências locais, coletas e entregas intermunicipais dentro de áreas urbanas.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish4.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Veiculos Leves
+                    </h3>
+
+                    <span class="dish-description">
+                        Veículos ¾ Báu, Sider e Carga Seca. Veículos destinados a coletas e entregas expressas ou pequenos volumes para áreas urbanas.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Utilitarios
+                    </h3>
+
+                    <span class="dish-description">
+                        Veículos destinados a coletas e entregas em perímetro urbano com grande agilidade operacional.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Ryan Moscardini
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
